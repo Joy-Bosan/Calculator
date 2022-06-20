@@ -10,6 +10,8 @@ function displayDigits(digit){
     document.getElementById("inputs").innerHTML += digit.value; //innerHTML is used to insert  elements into id *in a div NOTE that += means appending
 }
 
+
+
 // perform the arithmetic operation
 function doAdd(){
 collectNums = document.getElementById("inputs").innerHTML; //value is used to access inputs, hence to access a div we use innerHTML
